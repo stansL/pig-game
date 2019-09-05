@@ -1,1 +1,7 @@
-console.log("Hello World! - Item has been changed");
+var firstName = "Stanslaus";
+var lastName = "Odhiambo";
+var age = 32;
+var fullAge = true;
+
+
+console.log(firstName, lastName, age, fullAge);
