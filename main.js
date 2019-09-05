@@ -10,4 +10,7 @@ That spans multiple lines
 */
 console.log(firstName, lastName, age, fullAge);
 
+//Demonstrating type coersion  - converted number to a string for concatanation
+console.log(firstName + ' ' + age);
+
 
