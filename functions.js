@@ -28,3 +28,36 @@ function yearsToRetire(yearOfBirth, firstName){
 
 
 yearsToRetire(1947,'Stanslaus');
+
+
+/********
+* Function Statements and Expressions
+*/
+
+//Function declaration
+//function jobQuestion(job,firstName){
+//    
+//}
+
+//Function Expression
+var jobQuestion = function(job, firstName){
+    switch(job){
+        case 'teacher':{
+            return firstName + ' teaches programming';
+        }
+        case 'driver':{
+            return firstName + ' drives the school van';
+
+        }
+        case 'designer':{
+            return firstName + ' designs the school logos';
+
+        }
+        default:{
+            return firstName + ' does something else';
+        }
+    }
+    
+}
+
+console.log(jobQuestion('designer','James'));
