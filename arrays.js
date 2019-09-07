@@ -14,3 +14,5 @@ console.log(names.length);
 var john = ['John', 'Smith', 1990, 'teacher',false];
 
 console.log(john);
+
+
