@@ -35,3 +35,22 @@ janeDoe[2] = 32;
 
 console.log(jane);
 console.log(janeDoe);
+
+
+/*******************************
+* Objects and Methods*
+*******************************/ 
+
+var johnTwo = {
+    firstName: 'John',
+    lastName: 'Doe',
+    yearOfBirth: 1990,
+    job: 'Designer',
+    familyMembers: ['Jane','Peter','Sharon'],
+    isMarried: false,
+    calcAge: function(){
+        return 2019 - this.yearOfBirth;
+    }
+}
+
+console.log(johnTwo.calcAge());
